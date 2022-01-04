@@ -1,0 +1,7 @@
+Define the terms: method, class, function, field, variable
+Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
+Commit changes to this file as you add more definitions and explanations
+
+
+Know the difference between interpreted and compiled languages
+Define the terms and explain the difference between interpreted and compiled in your terms of art text document. Commit when complete
