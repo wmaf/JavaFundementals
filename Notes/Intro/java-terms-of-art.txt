@@ -12,9 +12,9 @@ Is a container of one or more related functions.
 Function:
 The smallest building block in Java is a function.  A function is a block of code that performs a task.
 
-Field:
+Field:  //Not in this lesson//
 
-Variable:
+Variable: //Not in this lesson//
 
 Access Modifier:
 Access modifiers enable you to limit how programmers access given classes. This actually fulfills a key principle of object-oriented programming—encapsulation.
