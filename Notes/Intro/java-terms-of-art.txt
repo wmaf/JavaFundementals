@@ -1,6 +1,43 @@
 Define the terms: method, class, function, field, variable
 Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
 Commit changes to this file as you add more definitions and explanations
+Define the terms:
+
+Method:
+A method is a function that is part of o class.
+
+Class:
+Is a container of one or more related functions.
+
+Function:
+The smallest building block in Java is a function.  A function is a block of code that performs a task.
+
+Field:
+
+Variable:
+
+Access Modifier:
+Access modifiers enable you to limit how programmers access given classes. This actually fulfills a key principle of object-oriented programming—encapsulation.
+
+
+Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
+The smallest building block in Java is a function.  A function is a block of code that performs a task.
+A function consist of a ReturnType (such as "void") and  aName(itsParameters) {andJavaCode}.
+Each Java program should have an entry point "main(){}"  whenever a Java program is executed it runs the code within the "main".  The main function must belong to a "class"  the class for main is: Main{} note that M is capatialized (uses PNC) and Main is preceded with curley braces.
+Preceding the  class and returnType ia an access modifier which is a keyword placed before attributes, methods, or classes to manage how they're accessed (restrictions).
+Access modifiers are also sometimes referred to as visibility modifiers.
+Visibility modifiers enable you to limit how programmers access given classes. This actually fulfills a
+PNC = Pascal Naming Convention (Classes)
+CNC = Camel Naming Convention (methods)
+---------------------------------------------Modifiers---------------------------------------------------
+Default:
+When you don't explicitly define a modifier, the Java compiler will use the default visibility access. So only classes in the same package as the defined class can access its variables or methods.
+Public:
+This modifier allows members of a class to be accessed in all packages. Simply put, you can access them everywhere. The public modifier provides the least restrictive level of access.
+Protected:
+Allows members of a class to be accessed within the class and its sub-classes. It can provide access outside a package only through inheritance. Unlike the two previous modifiers, protected "can only be used with members of a class, not the class itself."
+Private:
+This modifier allows members of a class to only be accessed within the class.
 
 
 Know the difference between interpreted and compiled languages
