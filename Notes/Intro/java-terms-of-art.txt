@@ -1,8 +1,7 @@
-Define the terms: method, class, function, field, variable
-Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
-Commit changes to this file as you add more definitions and explanations
-Define the terms:
+Q: Define the terms: method, class, function, field, variable
+Q: Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
 
+Define the following terms:
 Method:
 A method is a function that is part of o class.
 
@@ -12,33 +11,77 @@ Is a container of one or more related functions.
 Function:
 The smallest building block in Java is a function.  A function is a block of code that performs a task.
 
-Field:  //Not in this lesson//
+Field:
+A Field is a data member of a class. Unless specified otherwise, a field can be public, static, not static and final.
+Property It is also used for fields, it typically has getter and setter combination. At its most basic, a Java field
+is a variable. This means that it represents a value, such as a numerical value or a text. Fields are declared within
+classes of a code. An attribute is another term for a field. It’s typically a public field that can be accessed
+directly. ii
 
-Variable: //Not in this lesson//
+
+Variable:
+Variable A variable is the name given to a memory location. It is the basic unit of storage in a program.
+The value stored in a variable can be changed during program execution. Each variable has a type.
 
 Access Modifier:
-Access modifiers enable you to limit how programmers access given classes. This actually fulfills a key principle of object-oriented programming—encapsulation.
+Access modifiers enable you to limit how programmers access given classes. This actually fulfills a key principle of
+object-oriented programming—encapsulation.
 
 
 Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
 The smallest building block in Java is a function.  A function is a block of code that performs a task.
-A function consist of a ReturnType (such as "void") and  aName(itsParameters) {andJavaCode}.
-Each Java program should have an entry point "main(){}"  whenever a Java program is executed it runs the code within the "main".  The main function must belong to a "class"  the class for main is: Main{} note that M is capatialized (uses PNC) and Main is preceded with curley braces.
-Preceding the  class and returnType ia an access modifier which is a keyword placed before attributes, methods, or classes to manage how they're accessed (restrictions).
-Access modifiers are also sometimes referred to as visibility modifiers.
-Visibility modifiers enable you to limit how programmers access given classes. This actually fulfills a
-PNC = Pascal Naming Convention (Classes)
-CNC = Camel Naming Convention (methods)
+
+A function consist of a ReturnType (such as "void") and aName(itsParameters) {andJavaCode}.
+Each Java program should have an entry point "main(){}" whenever a Java program is executed it runs the code
+within the "main". The main function must belong to a "class" the class for main is: Main{} note that M is
+capitalized (uses PNC) and Main is preceded with curley braces. Preceding the class and returnType is an access modifier
+which is a keyword placed before attributes, methods, or classes to manage how they're accessed (restrictions).
+(Note: main must include static)
+
+
 ---------------------------------------------Modifiers---------------------------------------------------
 Default:
-When you don't explicitly define a modifier, the Java compiler will use the default visibility access. So only classes in the same package as the defined class can access its variables or methods.
+When you don't explicitly define a modifier, the Java compiler will use the default visibility access. So only classes
+in the same package as the defined class can access its variables or methods.
 Public:
-This modifier allows members of a class to be accessed in all packages. Simply put, you can access them everywhere. The public modifier provides the least restrictive level of access.
+This modifier allows members of a class to be accessed in all packages. Simply put, you can access them everywhere.
+The public modifier provides the least restrictive level of access.
 Protected:
-Allows members of a class to be accessed within the class and its sub-classes. It can provide access outside a package only through inheritance. Unlike the two previous modifiers, protected "can only be used with members of a class, not the class itself."
+Allows members of a class to be accessed within the class and its sub-classes. It can provide access outside a package
+only through inheritance. Unlike the two previous modifiers, protected "can only be used with members of a class, not
+the class itself."
 Private:
 This modifier allows members of a class to only be accessed within the class.
 
 
-Know the difference between interpreted and compiled languages
-Define the terms and explain the difference between interpreted and compiled in your terms of art text document. Commit when complete
+Q: Know the difference between interpreted and compiled languages
+Define the terms and explain the difference between interpreted and compiled in your terms of art text document.
+
+In a compiled language, the target machine directly translates the program. In an interpreted language,
+the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter,
+reads and executes the code.  JIT compilers interact with the Java Virtual Machine (JVM) at run time and compile
+suitable bytecode sequences into native machine code. While using a JIT compiler, the hardware is able to execute
+the native code, as compared to having the JVM interpret the same sequence of bytecode repeatedly and incurring an
+overhead for the translation process.
+
+
+
+
+
+
+
+
+* The "static" keyword in Java is mainly used for memory management. The static keyword in Java is used to share the same
+variable or method of a given class. The users can apply static keywords with variables, methods, blocks, and nested classes.
+The static keyword belongs to the class than an instance of the class. The static keyword is used for a constant variable or
+a method that is the same for every instance of a class.i
+
+
+Reference:
+i https://www.geeksforgeeks.org/static-keyword-java/
+
+Notes:
+Access modifiers are also sometimes referred to as visibility modifiers.
+Visibility modifiers enable you to limit how programmers access given classes. This actually fulfills a
+PNC = Pascal Naming Convention (Classes)
+CNC = Camel Naming Convention (methods)
