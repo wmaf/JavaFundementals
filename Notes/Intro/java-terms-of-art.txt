@@ -6,7 +6,8 @@ Method:
 A method is a function that is part of o class.
 
 Class:
-Is a container of one or more related functions.
+Is a container of one or more related functions.  It is like a blueprint it contains the detailed instructions for an
+objects construction and use.  It defines the properties (fields) and methods.
 
 Function:
 The smallest building block in Java is a function.  A function is a block of code that performs a task.
