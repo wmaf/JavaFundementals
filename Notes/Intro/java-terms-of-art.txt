@@ -3,11 +3,11 @@ Q: Define the terms in relation to each other. ie a method is a function, define
 
 Define the following terms:
 Method:
-A method is a function that is part of o class.
+A method is a function that is part of a class.  Methods are defined at the top layer of the class.
 
 Class:
 Is a container of one or more related functions.  It is like a blueprint it contains the detailed instructions for an
-objects construction and use.  It defines the properties (fields) and methods.
+objects construction and use.  It defines the fields (properties) and methods.
 
 Function:
 The smallest building block in Java is a function.  A function is a block of code that performs a task.
@@ -86,3 +86,14 @@ Access modifiers are also sometimes referred to as visibility modifiers.
 Visibility modifiers enable you to limit how programmers access given classes. This actually fulfills a
 PNC = Pascal Naming Convention (Classes)
 CNC = Camel Naming Convention (methods)
+
+A constructor in Java is similar to method it's invoked at the time creating an object of the class, it is
+generally used to initialize the instance variables of a class. The constructors have the same name as their class
+and, have no return type.If you do not provide a constructor the compiler defines one on your behalf, which initializes
+the instance variables with default values. You can also accept parameters through constructors and initialize the
+instance variables of a class using the given values, these are known as parameterized constructors.
+constructor is a method which is called when object of the class is instantiated. It is used to set default values
+to the attributes of the class.The name of the constructor is the same as the class name. Getters and Setters are
+methods that are used to access the attributes of an object. The attributes are mostly kept private so that we cannot
+access them directly so the getter and setter are used to access them. These methods are mostly public but never private.
+hope it helps
