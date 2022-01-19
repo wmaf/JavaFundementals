@@ -6,7 +6,7 @@ public class Car {
     public int mileage;
     public double gasTankPercent;
 
-    //public Object [] carArr = {};
+    //public Object [] carArr = {3};
     public Car(String make, String model, int mileage, float gasTankPercent) {
         this.make = make;
         this.model = model;
@@ -17,4 +17,5 @@ public class Car {
     public String getCar () {
         return make;
     }
+
 }
