@@ -17,7 +17,6 @@ public class Main {
         String lName = myScanner.nextLine();
         //Show it to the user
         System.out.println("Hello: " + fName +" "+ lName);
-
     }
 }
 
