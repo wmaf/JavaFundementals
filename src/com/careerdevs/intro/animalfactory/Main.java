@@ -18,9 +18,9 @@ public class Main {
 
 
         // Creating (Animal) instance
-        Animal userGeneratedAnimal = new Animal(speciesInput, legsInput ect.....)
+       // Animal userGeneratedAnimal = new Animal(speciesInput, legsInput ect.....)
 
         // output field values for (Animal) instance
-        System.out.println(userGeneratedAnimal);
+        //System.out.println(userGeneratedAnimal);
     }
 }
